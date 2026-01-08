@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --farm-field: rgb(37, 124, 37);
+    --banana: #fcf15b;
+    --banana-tree:rgb(112, 80, 38);
+    --banana-tree-hover: rgb(77, 54, 25);
+}
+
+/*Headers en stuff*/
+
+h1 {
+    text-align: center;
+}
+
+#reset-button {
+    margin-top: 10px;
+    margin-left: 50%;
+
+}
+
+/* Banana Farm en Container */
+.farm-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--farm-field);
+    width: 75%;
+    margin-left: 12%;
+}
+
+.banana-tree {
+    background-color: var(--banana-tree);
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.banana-tree:hover {
+    background-color: var(--banana-tree-hover);
+}
